@@ -1,0 +1,22 @@
+{
+  "name": "smart-brains-backend",
+  "version": "1.0.0",
+  "description": "smart brains api",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Komal Sainath",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.2",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "knex": "^0.19.1",
+    "pg": "^7.12.0"
+  }
+}
