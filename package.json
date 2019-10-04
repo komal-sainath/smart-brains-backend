@@ -9,8 +9,7 @@
   "keywords": [],
   "author": "Komal Sainath",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.10",
+  "dependencies": {
     "bcrypt": "^3.0.6",
     "body-parser": "^1.18.2",
     "clarifai": "^2.9.1",
@@ -18,5 +17,8 @@
     "express": "^4.16.2",
     "knex": "^0.19.1",
     "pg": "^7.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
