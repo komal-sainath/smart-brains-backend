@@ -44,6 +44,7 @@ app.listen(process.env.PORT || 3001, () => {
 // })
 
 //this method is another method of calling parameters from other functions associated with the below function
+app.get('/', (req, res) => { res.send('its working!')});
 app.post('/signin', signin.handleSignin(db, bcrypt))
 
 app.post('/register', (req, res) => {
